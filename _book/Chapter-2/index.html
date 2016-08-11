@@ -1,0 +1,500 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Setup the development environment · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../Chapter-3/" />
+    
+    
+    <link rel="prev" href="../Chapter-1/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Chapter-1/">
+            
+                <a href="../Chapter-1/">
+            
+                    
+                    Introduction about the x86 architecture and about our OS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Setup the development environment
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../Chapter-3/">
+            
+                <a href="../Chapter-3/">
+            
+                    
+                    First boot with GRUB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../Chapter-4/">
+            
+                <a href="../Chapter-4/">
+            
+                    
+                    Backbone of the OS and C++ runtime
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../Chapter-5/">
+            
+                <a href="../Chapter-5/">
+            
+                    
+                    Base classes for managing x86 architecture
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../Chapter-6/">
+            
+                <a href="../Chapter-6/">
+            
+                    
+                    GDT
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../Chapter-7/">
+            
+                <a href="../Chapter-7/">
+            
+                    
+                    IDT and interrupts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Chapter-8/">
+            
+                <a href="../Chapter-8/">
+            
+                    
+                    Theory: physical and virtual memory
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../chapter9/">
+            
+                <a href="../chapter9/">
+            
+                    
+                    Memory management: physical and virtual
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" >
+            
+                <span>
+            
+                    
+                    Process management and multitasking
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" >
+            
+                <span>
+            
+                    
+                    External program execution: ELF files
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" >
+            
+                <span>
+            
+                    
+                    Userland and syscalls
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" >
+            
+                <span>
+            
+                    
+                    Modular drivers
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" >
+            
+                <span>
+            
+                    
+                    Some basics modules: console, keyboard
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" >
+            
+                <span>
+            
+                    
+                    IDE Hard disks
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" >
+            
+                <span>
+            
+                    
+                    DOS Partitions
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" >
+            
+                <span>
+            
+                    
+                    EXT2 read-only filesystems
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" >
+            
+                <span>
+            
+                    
+                    Standard C library (libC)
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" >
+            
+                <span>
+            
+                    
+                    UNIX basic tools: sh, cat
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" >
+            
+                <span>
+            
+                    
+                    Lua interpreter
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Setup the development environment</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="chapter-2-setup-the-development-environment">Chapter 2: Setup the development environment</h2><p>The first step is to setup a good and viable development environment. Using Vagrant and Virtualbox, you&apos;ll be able to compile and test your OS from all the OSs (Linux, Windows or Mac).</p><h3 id="install-vagrant">Install Vagrant</h3><blockquote><p>Vagrant is free and open-source software for creating and configuring virtual development environments. It can be considered a wrapper around VirtualBox.</p></blockquote><p>Vagrant will help us create a clean virtual development environment on whatever system you are using.
+The first step is to download and install Vagrant for your system at <a href="http://www.vagrantup.com/" target="_blank">http://www.vagrantup.com/</a>.</p><h3 id="install-virtualbox">Install Virtualbox</h3><blockquote><p>Oracle VM VirtualBox is a virtualization software package for x86 and AMD64/Intel64-based computers.</p></blockquote><p>Vagrant needs Virtualbox to work, Download and install for your system at <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">https://www.virtualbox.org/wiki/Downloads</a>.</p><h3 id="start-and-test-your-development-environment">Start and test your development environment</h3><p>Once Vagrant and Virtualbox are installed, you need to download the ubuntu lucid32 image for Vagrant:</p><pre><code>vagrant box add lucid32 http://files.vagrantup.com/lucid32.box</code></pre>
+<p>Once the lucid32 image is ready, we need to define our development environment using a <em>Vagrantfile</em>, <a href="https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System/blob/master/src/Vagrantfile" target="_blank">create a file named <em>Vagrantfile</em></a>. This file defines what prerequisites our environment needs: nasm, make, build-essential, grub and qemu.</p><p>Start your box using:</p><pre><code>vagrant up</code></pre>
+<p>You can now access your box by using ssh to connect to the virtual box using:</p><pre><code>vagrant ssh</code></pre>
+<p>The directory containing the <em>Vagrantfile</em> will be mounted by default in the <em>/vagrant</em> directory of the guest VM (in this case, Ubuntu Lucid32):</p><pre><code>cd /vagrant</code></pre>
+<h4 id="build-and-test-our-operating-system">Build and test our operating system</h4><p>The file <a href="https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System/blob/master/src/Makefile" target="_blank"><strong>Makefile</strong></a> defines some basics rules for building the kernel, the user libc and some userland programs.</p><p>Build:</p><pre><code>make all</code></pre>
+<p>Test our operating system with qemu:</p><pre><code>make run</code></pre>
+<p>The documentation for qemu is available at <a href="http://wiki.qemu.org/download/qemu-doc.html" target="_blank">QEMU Emulator Documentation</a>.</p><p>You can exit the emulator using: Ctrl-a.</p>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../Chapter-1/" class="navigation navigation-prev " aria-label="Previous page: Introduction about the x86 architecture and about our OS">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../Chapter-3/" class="navigation navigation-next " aria-label="Next page: First boot with GRUB">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Setup the development environment","level":"1.3","depth":1,"next":{"title":"First boot with GRUB","level":"1.4","depth":1,"path":"Chapter-3/README.md","ref":"Chapter-3/README.md","articles":[]},"previous":{"title":"Introduction about the x86 architecture and about our OS","level":"1.2","depth":1,"path":"Chapter-1/README.md","ref":"Chapter-1/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Chapter-2/README.md","mtime":"2015-10-29T16:04:28.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-08-11T06:03:18.076Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
